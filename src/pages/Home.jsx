@@ -1,5 +1,5 @@
 import React from "react";
-import { Phone, MapPin, Instagram, Clock } from "lucide-react";
+import { Phone, MapPin, Instagram, Clock, Facebook } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { Card, CardContent } from "../components/ui/card";
 
@@ -367,6 +367,17 @@ const Home = () => {
                 >
                   <Instagram className="h-5 w-5" />
                   Instagram
+                </a>
+              </div>
+              <div className="flex gap-4">
+                <a
+                  href="https://www.facebook.com/p/Peda%C3%A7o-de-Pecado-Doceria-100063736382706/?locale=pt_BR"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-white/70 hover:text-white transition-colors duration-300"
+                >
+                  <Facebook className="h-5 w-5" />
+                  Facebook
                 </a>
               </div>
             </div>
