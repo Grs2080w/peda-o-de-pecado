@@ -1,67 +1,67 @@
-# 🍰 Pedaço de Pecado - Landing Page
+# 🍰 Piece of Sin - Landing Page
 
-Esta é a landing page oficial da Pedaço de Pecado, uma doceria e cafeteria artesanal localizada em Presidente Prudente - SP. O projeto foi desenvolvido com foco em conversão via WhatsApp, experiência do usuário (UX) e design responsivo.
+This is the official landing page of Pedaço de Pecado, an artisanal sweet shop and café located in Presidente Prudente - SP. The project was developed with a focus on conversion via WhatsApp, user experience (UX) and responsive design.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used 
 
- - React.js: Biblioteca principal para a interface.
- - Tailwind CSS: Framework utilitário para estilização rápida e responsiva.
- - Lucide React: Biblioteca de ícones leves e elegantes.
- - Shadcn/UI: Componentes de interface (Button, Card) para consistência visual.
+- React.js: Main library for the interface. 
+- Tailwind CSS: Utility framework for fast and responsive styling. 
+- Lucide React: Lightweight and elegant icon library. 
+- Shadcn/UI: Interface components (Button, Card) for visual consistency.
 
 
-## ✨ Funcionalidades
-- Header Fixo: Navegação sempre visível com acesso rápido ao botão de pedidos.
+## ✨ Features
+- Fixed Header: Navigation always visible with quick access to the order button.
 
-- Galeria de Produtos: Exibição em grid dos doces e cafés com efeitos de zoom no hover.
+- Product Gallery: Grid display of sweets and coffees with zoom effects on hover.
 
-- Integração com WhatsApp: Botões estratégicos que abrem conversa direta com uma mensagem personalizada.
+- Integration with WhatsApp: Strategic buttons that open a direct conversation with a personalized message.
 
-- Depoimentos: Prova social com avaliações de clientes.
+- Testimonials: Social proof with customer reviews.
 
-- Localização: Seção dedicada com informações de endereço, horários e mapa integrado.
+- Location: Dedicated section with address information, opening hours and integrated map.
 
-- Design Responsivo: Totalmente adaptado para dispositivos móveis, tablets e desktops.
+- Responsive Design: Fully adapted for mobile devices, tablets and desktops.
 
-## 📁 Estrutura de Pastas
+## 📁 Folder Structure
 
 ```Plaintext
 src/
 ├── components/
-│   └── ui/            # Componentes base (Botões, Cards)
+│ └── ui/ # Base components (Buttons, Cards)
 ├── pages/
-│   └── Home.jsx       # Componente principal da Landing Page
-├── public/            # Imagens e logotipos (SVG/JPG)
-└── index.html             # Ponto de entrada da aplicação
+│ └── Home.jsx # Main component of the Landing Page
+├── public/ # Images and logos (SVG/JPG)
+└── index.html # Application entry point
 ```
 
-## 🛠️ Como Executar o Projeto
+## 🛠️ How to Execute the Project
 
-1. Clone o repositório:
+1. Clone the repository:
 
 ```Bash
 git clone https://github.com/seu-usuario/pedaco-de-pecado.git
 ```
 
-2. Instale as dependências:
+2. Install dependencies:
 ```Bash
 npm install
-# ou
+# or
 yarn install
 ```
-Certifique-se de ter as imagens na pasta /public: O código referencia imagens como /1.jpg, /fora.jpg, etc. Certifique-se de que esses arquivos existam no diretório público.
+Make sure you have the images in the /public folder: The code references images as /1.jpg, /fora.jpg, etc. Make sure these files exist in the public directory.
 
-3. Inicie o servidor de desenvolvimento:
+3. Start the development server:
 
 ```Bash
 npm run dev
 ```
 
-### 🎨 Personalização de Cores
+### 🎨 Color Customization
 
-O projeto utiliza uma paleta personalizada no Tailwind. Certifique-se de que seu arquivo tailwind.config.js contenha as definições para:
+The project uses a custom palette in Tailwind. Make sure your tailwind.config.js file contains the definitions for:
 
-- cream: Fundo suave.
-- chocolate: Textos e elementos principais.
-- rose-dusty: Destaques e botões de ação.
-- gold: Estrelas de avaliação e detalhes do footer.
+- cream: Soft background.
+- chocolate: Texts and main elements.
+- rose-dusty: Highlights and action buttons.
+- gold: Rating stars and footer details.
